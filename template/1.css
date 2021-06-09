@@ -1,0 +1,29 @@
+.ch{
+    min-height: 140px;
+}
+.cb{
+    min-height: 100px;
+}
+.jumbotron{
+    background: rgba(128, 128, 128, 0.164);
+}
+
+table{
+    background: rgba(255, 251, 251, 0.274);
+}
+body{
+    background-image: url(../bck.jpg);
+}
+.kategori{
+    min-height: 500px;
+}
+#hapus{
+    min-height : 300px;
+}
+
+h1, h2, h3 , p{
+    color : rgba(255, 255, 255, 0.568)
+}
+label , footer{
+    color : rgba(236, 159, 159, 0.603);
+}

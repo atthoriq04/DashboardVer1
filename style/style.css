@@ -1,0 +1,59 @@
+/* Halaman Login */
+body{
+    background: url(../bck.jpg);
+}
+#mark{
+    min-height: 580px;
+}
+#marks{
+    min-height: 630px;
+}
+#log{
+    margin-top: 190px;
+    background:  rgba(167, 167, 167, 0.479);
+    height: 200px;
+}
+form{
+    margin-top : 30px;
+}
+footer{
+    clear: both;
+    color: #b6a2bdbb;
+}
+/* Register */
+#reg{
+    margin-top: 110px;
+    background:  rgba(167, 167, 167, 0.479);
+    height: 340px;
+}
+/* Index */
+#kartu{
+    position: relative;
+    background: rgba(167, 167, 167, 0.233);
+    height: 200px;
+    width: 440px;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+    float: right;
+    margin-top :200px;
+    
+}
+#kartu:hover{
+    transform: rotateY(180deg);
+}
+#front, #belakang{
+    position : absolute;
+    height: 200px;
+    width: 440px;
+    backface-visibility: hidden;
+}
+#front{
+    text-align: center;
+    margin-top :85px;
+    font-size: 30;
+    color: rgb(13, 20, 22);
+}
+#belakang{
+    transform: rotateY(180deg);
+    margin-top : 20px;
+}
